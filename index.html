@@ -1,48 +1,36 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CV Nescelia</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: #f0f9ff;
+      background: #f3f7fa;
       margin: 0;
       padding: 0;
       color: #333;
     }
     .container {
       max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background: #ffffff;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    .profile-pic {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .profile-pic img {
-      width: 160px;
+      background: #fff;
+      margin: 30px auto;
+      padding: 30px;
       border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
     h1 {
       text-align: center;
       color: #2c3e50;
-      margin-bottom: 5px;
     }
     h2 {
-      color: #1a73e8;
-      border-bottom: 2px solid #1a73e8;
+      border-bottom: 2px solid #2c3e50;
       padding-bottom: 5px;
-      margin-top: 30px;
+      color: #2c3e50;
     }
-    p, li {
-      font-size: 16px;
-      line-height: 1.5;
+    p {
+      margin: 5px 0;
     }
     strong {
       color: #000;
@@ -50,14 +38,19 @@
     ul {
       padding-left: 20px;
     }
-    @media screen and (max-width: 600px) {
-      .container {
-        margin: 10px;
-        padding: 15px;
-      }
-      .profile-pic img {
-        width: 120px;
-      }
+    .highlight {
+      color: #3498db;
+    }
+    .profile-pic {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .profile-pic img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     }
   </style>
 </head>
@@ -68,7 +61,7 @@
     </div>
 
     <h1>Curriculum Vitae</h1>
-    <h2>Nescelia Evanila Hosiana Manibuy</h2>
+    <h2 class="highlight">Nescelia Evanila Hosiana Manibuy</h2>
 
     <h2>Informasi Pribadi</h2>
     <p><strong>Tempat, Tanggal Lahir:</strong> Manowakri, 25 Mei 2005</p>
@@ -104,4 +97,3 @@
   </div>
 </body>
 </html>
-
